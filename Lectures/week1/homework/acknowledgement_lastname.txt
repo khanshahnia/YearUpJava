@@ -1,5 +1,2 @@
-<<<<<<< HEAD
 I SHAHNIA KHAN acknowledge that
-=======
 this assignment is  my own work
->>>>>>> homework_branch
