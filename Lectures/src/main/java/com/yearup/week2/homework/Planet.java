@@ -2,7 +2,7 @@ package com.yearup.week2.homework;
 
 public class Planet implements Calculator  {
 
-    protected String Star;   //member variable
+    protected String StarOfThePlanet;   //member variable
     protected String planetName;
     protected double planetRadius;
     protected double Area;
@@ -14,7 +14,7 @@ public class Planet implements Calculator  {
 
 
 
-        return Star;
+        return StarOfThePlanet;
     }
     @Override
     public double calculateArea(double radius, double y) {
@@ -30,6 +30,9 @@ public class Planet implements Calculator  {
     @Override
     public double calculateVolume(double s, double h, double k) {
         return 0;
+    }
+    public void displayArea() {
+        System.out.println("Area for Planet Class is: " + Area);
     }
 }
 

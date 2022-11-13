@@ -9,8 +9,13 @@ public class calculationTest {
         final double area = object.calculateArea(length, length);
         object.displayArea();
 
-        Planet planetName  = new Planet();
-        Planet planetRadius  = new Planet();
+        Planet planetobj = new Planet();   //instance
+
+        planetobj.calculateArea(5,6);
+
+        planetobj.displayArea();
+
+
 
     }
 
