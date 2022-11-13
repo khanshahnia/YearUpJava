@@ -4,8 +4,8 @@ import java.util.Scanner;
 
 public class calcImp implements Calculator {
 
-    private double returnValue;
-    private double area_square;
+    private double returnValue; //member variable
+    private double area_square; //member variable
 
     public calcImp() { //constructor
 
