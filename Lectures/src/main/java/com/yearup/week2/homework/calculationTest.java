@@ -15,8 +15,10 @@ public class calculationTest {
 
         planetobj.displayArea();
 
+        SolarSystemPlanet obj = new SolarSystemPlanet();
 
-
+        final int position=  obj.PlanetPosition("Saturn");
+        System.out.println("Position of the planet is :" +position);
     }
 
 
