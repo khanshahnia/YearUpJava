@@ -1,3 +1,5 @@
+package com.yearup.week2;
+
 public class helloWorld {
   public static void main(String[] args) {
 	//prints Hello world in command line.
@@ -6,6 +8,8 @@ public class helloWorld {
 	System.out.println(args[0]);
 	System.out.println("How are you?");}
 	else {
+
+		System.out.println("?????");
 		System.out.println("Please run the command with arguments");
 	}
   }

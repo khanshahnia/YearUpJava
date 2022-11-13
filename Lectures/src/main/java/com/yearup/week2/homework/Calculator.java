@@ -1,4 +1,4 @@
-package main.java.com.yearup.week2.homework;
+package com.yearup.week2.homework;
 
 public interface Calculator {
 
