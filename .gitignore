@@ -26,4 +26,11 @@ hs_err_pid*
 .idea/
 /Lectures/.gradle/
 /Lectures/build/
+/Lectures/gradle/
 scratch/
+
+/HibernateSample/.gradle/
+/HibernateSample/build/
+/MultyThreadTest/.gradle/
+/MultyThreadTest/build/
+
