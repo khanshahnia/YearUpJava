@@ -11,7 +11,6 @@ public class calcImp implements Calculator {
 
     }
 
-
     public double getInput() {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the length : ");
