@@ -1,7 +1,5 @@
 package com.yearup.week2.homework;
-
 import java.util.Scanner;
-
 public class calcImp implements Calculator {
 
     private double returnValue; //member variable
@@ -10,7 +8,6 @@ public class calcImp implements Calculator {
     public calcImp() { //constructor
 
     }
-
     public double getInput() {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the length : ");
@@ -22,12 +19,10 @@ public class calcImp implements Calculator {
         //System.out.println("Area is: "+area_square);
         return userInput;
     }
-
     @Override
     public double calculateArea(double r, double y) {
 
         area_square = r * r;
-
         return 0;
     }
 
@@ -45,9 +40,6 @@ public class calcImp implements Calculator {
         System.out.println("Area is: " + area_square);
     }
 
-
-
-
     public static void main(String[] args) {
         calcImp object = new calcImp();
         double length = object.getInput();
@@ -55,9 +47,5 @@ public class calcImp implements Calculator {
         double area = object.calculateArea(length, length);
         object.displayArea();
     }
-
-
-
-
 
 }
