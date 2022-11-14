@@ -24,13 +24,13 @@ hs_err_pid*
 
 #custom
 .idea/
-/Lectures/.gradle/
-/Lectures/build/
-/Lectures/gradle/
-scratch/
 
+/Lectures/.gradle/
 /HibernateSample/.gradle/
-/HibernateSample/build/
 /MultyThreadTest/.gradle/
+
+/Lectures/build/
+/HibernateSample/build/
 /MultyThreadTest/build/
 
+scratch/
