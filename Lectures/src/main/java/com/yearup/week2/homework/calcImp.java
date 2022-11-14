@@ -45,4 +45,19 @@ public class calcImp implements Calculator {
         System.out.println("Area is: " + area_square);
     }
 
+
+
+
+    public static void main(String[] args) {
+        calcImp object = new calcImp();
+        double length = object.getInput();
+
+        double area = object.calculateArea(length, length);
+        object.displayArea();
+    }
+
+
+
+
+
 }
