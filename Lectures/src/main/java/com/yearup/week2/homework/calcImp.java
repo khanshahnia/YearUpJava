@@ -36,6 +36,11 @@ public class calcImp implements Calculator {
         return 0;
     }
 
+    @Override
+    public void displayCelestialobject(){
+
+    }
+
     public void displayArea() {
         System.out.println("Area is: " + area_square);
     }

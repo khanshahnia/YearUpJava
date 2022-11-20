@@ -4,6 +4,18 @@ import java.util.Scanner;
 
 public class Executor {
 
+
+    // Static nested class
+    public static class NestedStaticClass {
+        public void printMessage()
+        {
+            System.out.println("Your planet belongs to Milky way galaxy");
+        }
+    }
+
+
+
+
     Scanner sc;
     private SolarSystemPlanet ssp;
 
@@ -12,32 +24,71 @@ public class Executor {
         sc = new Scanner(System.in);
     }
 
+
+
+
+    public void HW3(){
+
+        //    HW 3
+
+        Calculator displayCelestialobject = new Calculator() {
+            @Override
+            public double calculateArea(double x, double y) {
+                return 0;
+            }
+
+            @Override
+            public double calculateSum(double i, double j) {
+                return 0;
+            }
+
+            @Override
+            public double calculateVolume(double s, double h, double k) {
+                return 0;
+            }
+            @Override
+            public void displayCelestialobject(){
+                System.out.println("Comet is a celestial object");
+            }
+
+        };
+
+
+
+        displayCelestialobject.displayCelestialobject();
+
+    }
+
+
     public static void main(String[] args) {
 
         Executor ex = new Executor();
+        ex.HW3();
 
-        String inputValue = ex.getInput();
-        Double r = ex.getRadius();
-        double a = ex.ssp.calculateArea(r, r);
 
-        ex.disp(a);
-        ex.disp2();
-        ex.getPosition();
+//        String inputValue = ex.getInput();
+//        Double r = ex.getRadius();
+//        double a = ex.ssp.calculateArea(r, r);
+//
+//        ex.disp(a);
+//        ex.disp2();
+//        ex.getPosition();
+//
+//        System.out.println("Do u want any other planet?");
+//
+//        String responose = ex.sc.nextLine();
+//
+//        if (responose.equals("Yes")){
+//            inputValue = ex.getInput();
+//            r = ex.getRadius();
+//            a = ex.ssp.calculateArea(r, r);
+//            ex.disp(a);
+//        }
+//        else{
+//            System.out.println("Thanks for using our planet application");
+//            System.out.println("Goodbye!");
+//        }
 
-        System.out.println("Do u want any other planet?");
-
-        String responose = ex.sc.nextLine();
-
-        if (responose.equals("Yes")){
-            inputValue = ex.getInput();
-            r = ex.getRadius();
-            a = ex.ssp.calculateArea(r, r);
-            ex.disp(a);
-        }
-        else{
-            System.out.println("Thanks for using our planet application");
-            System.out.println("Goodbye!");
-        }
 
     }
 
@@ -71,6 +122,8 @@ public class Executor {
 
 
     }
+//Week 3 homework
+
 
 
 }

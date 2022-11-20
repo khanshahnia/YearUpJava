@@ -11,5 +11,6 @@ public interface Calculator {
 
     public double calculateVolume(double s, double h, double k);
 
+    public void displayCelestialobject();
 
 }

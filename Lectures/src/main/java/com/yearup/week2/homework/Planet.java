@@ -30,6 +30,11 @@ public class Planet implements Calculator {
         return 0;
     }
 
+    @Override
+    public void displayCelestialobject(){
+
+    }
+
     public void displayArea() {
         System.out.println("Area for Planet Class is: " + Area);
     }
