@@ -57,6 +57,10 @@ public class Executor {
 
         displayCelestialobject.displayCelestialobject();
 
+        int moon = PlanetName.getMoonCount("Earth");
+
+        System.out.println(moon);
+
     }
 
 
