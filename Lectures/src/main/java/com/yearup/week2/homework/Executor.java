@@ -114,8 +114,6 @@ public class Executor {
         }
 
 
-        ex.HW3();
-
     }
 
     public String getInput() {
