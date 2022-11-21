@@ -17,14 +17,14 @@ public enum PlanetName {
 
     public static int getMoonCount(String planeName){
 
-        if(planeName == "Mercury") {
+        if(planeName.equals("Mercury")) {
             return 0;
         }
-        else if(planeName == "Venus") {
+        else if(planeName.equals("Venus")) {
             return 0;
         }
 
-        else if(planeName == "Earth") {
+        else if(planeName.equals("Earth")) {
             return 1;
         }
 

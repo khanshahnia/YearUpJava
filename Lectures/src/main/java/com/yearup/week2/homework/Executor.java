@@ -25,12 +25,25 @@ public class Executor {
     }
 
 
+    public  void Compare(String userInput){
+
+        PlanetName [] planetList =PlanetName.values();
+
+        for(PlanetName planet : PlanetName.values()) {
+            String name = planet.name();
+            if(name.equals(userInput)){
+                System.out.println("found user input in planet names");
+                return;
+            }
+        }
+
+        System.out.println("user input not found in planet names");
+
+    }
+
 
 
     public void HW3(){
-
-        //    HW 3
-
         Calculator displayCelestialobject = new Calculator() {
             @Override
             public double calculateArea(double x, double y) {
@@ -57,9 +70,13 @@ public class Executor {
 
         displayCelestialobject.displayCelestialobject();
 
-        int moon = PlanetName.getMoonCount("Earth");
+        String userInput = getInput();
+        int moon_count1 = PlanetName.getMoonCount(userInput);
 
-        System.out.println(moon);
+        Compare(userInput);
+
+
+//        System.out.println(moon);
 
     }
 
