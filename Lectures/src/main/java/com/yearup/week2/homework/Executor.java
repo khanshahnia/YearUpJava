@@ -67,16 +67,16 @@ public class Executor {
         };
 
 
-
         displayCelestialobject.displayCelestialobject();
 
         String userInput = getInput();
+
         int moon_count1 = PlanetName.getMoonCount(userInput);
+
+        System.out.println("The number of the Moon in this Planet is : "+moon_count1);
 
         Compare(userInput);
 
-
-        //System.out.println(moon);
 
     }
 
