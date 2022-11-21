@@ -76,7 +76,7 @@ public class Executor {
         Compare(userInput);
 
 
-//        System.out.println(moon);
+        //System.out.println(moon);
 
     }
 
@@ -148,7 +148,7 @@ public class Executor {
 
 
     }
-//Week 3 homework
+
 
 
 
