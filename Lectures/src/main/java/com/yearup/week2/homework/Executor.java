@@ -87,29 +87,34 @@ public class Executor {
         ex.HW3();
 
 
-//        String inputValue = ex.getInput();
-//        Double r = ex.getRadius();
-//        double a = ex.ssp.calculateArea(r, r);
-//
-//        ex.disp(a);
-//        ex.disp2();
-//        ex.getPosition();
-//
-//        System.out.println("Do u want any other planet?");
-//
-//        String responose = ex.sc.nextLine();
-//
-//        if (responose.equals("Yes")){
-//            inputValue = ex.getInput();
-//            r = ex.getRadius();
-//            a = ex.ssp.calculateArea(r, r);
-//            ex.disp(a);
-//        }
-//        else{
-//            System.out.println("Thanks for using our planet application");
-//            System.out.println("Goodbye!");
-//        }
+        String inputValue = ex.getInput();
+        Double r = ex.getRadius();
+        double a = ex.ssp.calculateArea(r, r);
 
+        ex.disp(a);
+        ex.disp2();
+        ex.getPosition();
+
+        System.out.println("Do u want any other planet?");
+
+        String responose = ex.sc.nextLine();
+
+        if (responose.equals("Yes")){
+            inputValue = ex.getInput();
+            r = ex.getRadius();
+            a = ex.ssp.calculateArea(r, r);
+            ex.disp(a);
+
+
+
+        }
+        else{
+            System.out.println("Thanks for using our planet application");
+            System.out.println("Goodbye!");
+        }
+
+
+        ex.HW3();
 
     }
 
